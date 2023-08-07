@@ -1,0 +1,21 @@
+#title{
+    font-size: 40;
+}
+
+#take_snapshot_button{
+    font-size: 20;
+}
+
+canvas{
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 75px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from{box-shadow: 5px 5px 5px rgb(255, 255, 255);}
+    to{box-shadow: 5px 5px 5px rgb(0, 0, 0);}
+}
